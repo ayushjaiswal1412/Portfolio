@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ayush Jaiswal, a B.Tech Computer Science and AI student aiming to become a software engineer.">
+  <title>Ayush Jaiswal | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Ayush Jaiswal, home">AJ</a>
+    <nav aria-label="Main navigation">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="hero-kicker">Hello, I am</p>
+        <h1>Ayush Jaiswal</h1>
+        <p class="hero-role">Aspiring Software Engineer</p>
+        <p class="hero-intro">
+          I build things with code, from AI assistants that read documents to web apps
+          that move people around a city. I am looking for a software engineering
+          role where I can keep learning and ship useful products.
+        </p>
+        <div class="button-row">
+          <a class="btn btn-gold" href="#projects">View my projects</a>
+          <a class="btn btn-outline" href="#contact">Contact me</a>
+        </div>
+      </div>
+      <div class="hero-mark">
+        <img src="images/profile.jpg" alt="Portrait of Ayush Jaiswal in a dark shirt against a blue background" width="250" height="400">
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About me</h2>
+      <div class="about-grid">
+        <p class="about-bio">
+          I am a pre-final year B.Tech student in Computer Science and Artificial
+          Intelligence, building practical AI-enabled software, from a RAG-based
+          document assistant to an EV ride-booking platform with dynamic fare
+          estimation. I have strong foundations in data structures, algorithms and
+          object-oriented programming, and I want to apply my AI and software skills
+          to real engineering problems.
+        </p>
+        <dl class="facts">
+          <div>
+            <dt>Education</dt>
+            <dd>B.Tech in Computer Science and Artificial Intelligence, Pranveer Singh Institute of Technology, Kanpur (2024 to 2028)</dd>
+          </div>
+          <div>
+            <dt>Schooling</dt>
+            <dd>Intermediate, CBSE Board (2024). High School, ICSE Board (2022).</dd>
+          </div>
+          <div>
+            <dt>Career interests</dt>
+            <dd>Software engineering, Machine Learning, Generative AI</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <ul class="skills-list">
+            <li>Java</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <ul class="skills-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React.js</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>AI and machine learning</h3>
+          <ul class="skills-list">
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Generative AI</li>
+            <li>Retrieval-Augmented Generation (RAG)</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Backend and APIs</h3>
+          <ul class="skills-list">
+            <li>Node.js</li>
+            <li>Streamlit</li>
+            <li>Flask API (basics)</li>
+            <li>Mistral API</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Databases</h3>
+          <ul class="skills-list">
+            <li>MySQL</li>
+            <li>Oracle Database</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul class="skills-list">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+            <li>Jupyter Notebook</li>
+            <li>Google Colab</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Core concepts</h3>
+          <ul class="skills-list">
+            <li>DSA</li>
+            <li>OOPs</li>
+            <li>API integration</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+
+        <article class="card">
+          <h3>Contexta-AI</h3>
+          <p class="card-sub">AI-powered PDF learning assistant</p>
+          <ul class="card-points">
+            <li>Built a document question-answering system using Retrieval-Augmented Generation (RAG), so users can ask questions about uploaded PDFs in plain language.</li>
+            <li>Combined Mistral AI and PyPDF with an interactive Streamlit interface to give accurate answers grounded in the document.</li>
+            <li>Added semantic search with LangChain, ChromaDB and HuggingFace Embeddings to find the right context before the model answers.</li>
+          </ul>
+          <p class="card-tech"><strong>Technologies:</strong> Python, RAG, Mistral AI, PyPDF, Streamlit, LangChain, ChromaDB, HuggingFace</p>
+        </article>
+
+        <article class="card">
+          <h3>ecoFride</h3>
+          <p class="card-sub">EV ride-booking web application</p>
+          <ul class="card-points">
+            <li>Designed and built a full-featured ride-booking interface made only for electric vehicles.</li>
+            <li>Created an interactive map with live location pins, source and destination input, and ETA and fare shown for each vehicle category.</li>
+            <li>Added an AI-powered fare estimator that uses demand-based pricing and distance and time multipliers for more accurate bookings.</li>
+          </ul>
+          <p class="card-tech"><strong>Technologies:</strong> HTML, CSS, JavaScript, Maps interface, AI fare estimation</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <h2>Achievements and certificates</h2>
+      <div class="ach-grid">
+        <div>
+          <h3>Achievements</h3>
+          <ul class="plain-list">
+            <li>Solved 300+ problems across LeetCode, HackerRank and CodeForces.</li>
+            <li>Qualified for round 3 of the Flipkart Grid 8.0 Hackathon 2026.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Certificates</h3>
+          <ul class="plain-list">
+            <li>Oracle Generative AI Professional</li>
+            <li>AWS Machine Learning Foundations (Training Badge)</li>
+            <li>Machine Learning Using Python (Infosys Springboard)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p class="contact-lead">Have an opportunity or a project in mind? Write to me and I will reply soon.</p>
+      <ul class="contact-list">
+        <li>
+          <span class="contact-label">Email</span>
+          <a href="mailto:ayushjaiswal1412@gmail.com">ayushjaiswal1412@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact-label">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/ayush-jaiswal-693aa3377" target="_blank" rel="noopener">linkedin.com/in/ayush-jaiswal-693aa3377</a>
+        </li>
+        <li>
+          <span class="contact-label">GitHub</span>
+          <a href="https://github.com/ayushjaiswal1412" target="_blank" rel="noopener">github.com/ayushjaiswal1412</a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Ayush Jaiswal. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
